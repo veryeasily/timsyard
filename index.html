@@ -24,7 +24,7 @@
       <img src='./shirt.jpg' />
     </div>
     <h3>
-      Cat
+      <p> You have seen that cat <span id="counter"></span> time(s)</p>
     </h3>
     <div>
       <img src='./cat.jpeg' />
@@ -57,5 +57,9 @@
     <div>
       <img src='./mark.jpeg' />
     </div>
+    <script>
+        var rand = Math.floor(Math.random() * 10101);
+      document.getElementById('counter').textContent = rand;
+</script>
   </body>
 </html>
